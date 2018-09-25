@@ -79,4 +79,7 @@ les deux autres représenteront deux utilisateurs (U1 et U2).
 8. Dans _U1_ récupérez la nouvelle branche et vérifiez que vous avez bien tous les fichiers.
 
 ## Git Distant
-Reprenez l'exercice précédent en ayant cette fois _bare_ hébergé dans un service spécialisé comme GitHub ou BitBucket. 
+Reprenez l'exercice précédent en ayant cette fois _bare_ hébergé dans un service spécialisé comme GitHub ou BitBucket.
+
+## Play fun games, win totally virtual prizes
+https://learngitbranching.js.org/
