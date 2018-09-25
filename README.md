@@ -58,6 +58,25 @@ Nous allons maintenant apprendre à ré-écrire le passé. Il s'agit d'une opér
 5. Corrigez le conflit et faites un commit.
 
 ## Git Local avec bare repository
+Pour cet exercice vous aurez besoin de 3 terminaux ouverts en même temps pour taper les différentes commandes. Un terminal sera sur le _bare repository_ (BR), et
+les deux autres représenteront deux utilisateurs (U1 et U2).
 
+### Simple
+1. Dans _BR_ créez un répertoire _bare_ dans lequel vous initialiserez un _bare repository_
+2. Dans _U1_ clonez le dépôt. Quel message d'avertissement avez vous ?
+3. Dans _U1_ ajoutez un fichier et commitez.
+4. Vérifiez le status, quel est le message d'avertissement, pourquoi ?
+5. Poussez les modifications et vérifiez le status.
+
+### Basic
+1. Dans _U2_ clonez _bare_
+2. Dans _U2_ ajoutez et commitez un nouveau fichier *sans* le pousser
+3. Dans _U1_ faites un pull, est-ce que le nouveau fichier est visible ?
+4. Que doit faire _U2_ pour que ses modifications soient visibles ? Faites le.
+5. Dans _U2_ créez une branche _br_ et ajoutez/commitez un fichier dedans.
+6. Que se passe-t-il quand vous essayez de pousser vos changements ?
+7. Utilisez la commande suggérée pour pousser votre Branche
+8. Dans _U1_ récupérez la nouvelle branche et vérifiez que vous avez bien tous les fichiers.
 
 ## Git Distant
+Reprenez l'exercice précédent en ayant cette fois _bare_ hébergé dans un service spécialisé comme GitHub ou BitBucket. 
