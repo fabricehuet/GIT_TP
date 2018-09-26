@@ -9,7 +9,7 @@ Le but de ce TP est de se familiariser avec GIT dans les différents modes qu'il
 4. Créez les répertoires _src_ et _bin_ à la racine de votre copie locale, ajoutez les à GIT et faites un commit. Expliquez le résultat.
 
 ### Basique
-1. Créez un fichier source pour la classe Java _fr.miage.votrenom.Hello_ dans _src_. Sans taper aucune commande GIT, regardez l'état de votre copie locale. Expliquez le résultat.
+1. Créez un fichier source pour la classe Java _fr.miage.votrenom.Hello_ dans _src_. Sans taper aucune commande GIT de modification de l'index, regardez l'état de votre copie locale. Expliquez le résultat.
 2. Ajoutez le fichier à l'index __SANS__ faire de commit ensuite. Demandez à voir l'état et expliquez le résultat.
 3. Faites un commit et vérifiez l'état.
 
