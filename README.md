@@ -83,3 +83,6 @@ Reprenez l'exercice précédent en ayant cette fois _bare_ hébergé dans un ser
 
 ## Play fun games, win totally virtual prizes
 https://learngitbranching.js.org/
+
+## Question Git de la mort
+1. Quel est le ?
