@@ -87,8 +87,8 @@ les deux autres représenteront deux utilisateurs (U1 et U2).
 5. Comment est indiqué une _release_ ? Quelle est la dernière et quel est son SHA1 ?
 6. Placez vous dans la branche _development_
 7. Quelle est la dernière _release_ dans cette branche ?
-8. Placez vous sur le dernier _tag_
-9. Quelles sont les différences avec la dernière version dans _master_ ?
+8. Placez vous dans _master_
+8. Quelles sont les différences entre la dernière version dans _master_ et celle qui la précède de 2 commits ?
 
 
 ## Git Distant
