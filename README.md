@@ -92,7 +92,7 @@ les deux autres représenteront deux utilisateurs (U1 et U2).
 
 
 ## Git Distant
-Reprenez l'exercice précédent en ayant cette fois _bare_ hébergé dans un service spécialisé comme GitHub ou BitBucket.
+Reprenez l'exercice avec le depot _bare_ en ayant cette fois _bare_ hébergé dans un service spécialisé comme GitHub ou BitBucket.
 
 ## Play fun games, win totally virtual prizes
 https://learngitbranching.js.org/
