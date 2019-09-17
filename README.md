@@ -20,9 +20,10 @@ Le but de ce TP est de se familiariser avec GIT dans les différents modes qu'il
 
 ### Pollution
 1. Notez la taille du répertoire _.git_
-2. Trouvez un fichier de quelques Mo, placez le dans _bin_ et ajoutez le au dépôt.
+2. Trouvez un fichier d'au moins 20 Mo, placez le dans _bin_ et ajoutez le au dépôt __SANS__ commit
 3. Quelle est maintenant la taille du répertoire _.git_. Expliquez.
-4. Copiez le fichier ajouté sous un autre nom et ajoutez le lui aussi au dépôt.
+4. Faites un _commit_ et regardez maintenant la taille de _.git_.  
+4. Copiez le fichier ajouté sous un autre nom et ajoutez le lui aussi au dépôt, avec commit
 5. Quelle est maintenant la taille du répertoire _.git_. Expliquez.
 6. Supprimez les deux fichiers du dépôt.
 7. Quelle est maintenant la taille du répertoire _.git_. Expliquez.
@@ -77,6 +78,18 @@ les deux autres représenteront deux utilisateurs (U1 et U2).
 6. Que se passe-t-il quand vous essayez de pousser vos changements ?
 7. Utilisez la commande suggérée pour pousser votre Branche
 8. Dans _U1_ récupérez la nouvelle branche et vérifiez que vous avez bien tous les fichiers.
+
+## Exploration d'un dépot distant
+1. Clonez le dépot https://github.com/ale93p/namb
+2. Quelle est la derière version ? Quel est son SHA1 ?
+3. Listez toutes les branches
+4. Quelle commande permet d'afficher les branches sous forme d'ASCII art ?
+5. Comment est indiqué une _release_ ? Quelle est la dernière et quel est son SHA1 ?
+6. Placez vous dans la branche _development_
+7. Quelle est la dernière _release_ dans cette branche ?
+8. Placez vous sur le dernier _tag_
+9. Quelles sont les différences avec la dernière version dans _master_ ?
+
 
 ## Git Distant
 Reprenez l'exercice précédent en ayant cette fois _bare_ hébergé dans un service spécialisé comme GitHub ou BitBucket.
