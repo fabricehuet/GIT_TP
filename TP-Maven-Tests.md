@@ -23,6 +23,14 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 ### Exécutable
 1. Créez un jar exécutable de votre projet avec Maven.
 
+### Modules et Sub-Modules
+1. Ajoutez deux modules `module1` et `module2` en créant les dossiers necessaires
+2. Créez les fichiers pom.xml pour les deux nouveax modules
+3. Créez une classe Afficheur.java dans `module1`, avec la function `afficheHello()` qui simplement affiche sur l'ecran "_Hello World!_"
+4. Ajoutez au `module2` la dépendance au `module1`
+5. Créez une classe Main.java dans `module2` qui utilise la function `afficheHello()` du `module1`
+6. Compilez le projet et vérifiez que tout se déroule correctement
+
 ## Junit 5
 ### Simple
 1. Ajoutez les dépendances pour JUnit 5 à votre fichier pom.xml
