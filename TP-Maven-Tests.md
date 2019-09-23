@@ -20,6 +20,19 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 2. Lancez la phase compile et analysez le message d'erreur
 3. Dans le cas où corriger le code n'est pas immédiatement possible, on peut exclure du code de la compilation. Modifiez le pom.xml pour exclure le package bogus
 
+### Dependances
+1. Ajoutez à votre projet une dépendance vers ASCII Render
+2. Écrivez une classe Dessin ayant des méthodes pour dessiner des formes géométriques simples (rectangle, carré....) avec ASCII Render
+3. Ajoutez une méthode main et vérifiez le bon fonctionnement. 
+
+### Execution avec Maven
+1. Trouvez comment exécuter une classe avec maven en passant son nom et d'autres paramètres sur la ligne de commande. 
+2. Modifiez votre pom.xml pour que l'exécution se fasse sans spécifier les paramètres comme précédemment. 
+
+### Resources
+1. Ajoutez aux resources de votre projet un fichier config.cfg contenant quelques lignes de texte
+2. Modifiez la classe Dessin pour qu'elle lise et affiche le contenu du fichier, sans utiliser de chemin absolu. 
+
 ### Exécutable
 1. Créez un jar exécutable de votre projet avec Maven.
 
