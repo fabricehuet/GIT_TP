@@ -23,13 +23,12 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 ### Exécutable
 1. Créez un jar exécutable de votre projet avec Maven.
 
-### Modules et Sub-Modules
-1. Ajoutez deux modules `module1` et `module2` en créant les dossiers necessaires
-2. Créez les fichiers pom.xml pour les deux nouveax modules
-3. Créez une classe Afficheur.java dans `module1`, avec la function `afficheHello()` qui simplement affiche sur l'ecran "_Hello World!_"
-4. Ajoutez au `module2` la dépendance au `module1`
-5. Créez une classe Main.java dans `module2` qui utilise la function `afficheHello()` du `module1`
-6. Compilez le projet et vérifiez que tout se déroule correctement
+### Modules
+1. Créez un nouveau projet avec son pom.xml principal
+2. Ajoutez deux modules `Utils` et `Afficheur` en créant les dossiers necessaires et leur fichiers pom.xml
+3. Créez un package fr.miage.utils dans `Utils`, avec une classe qui contient la function `afficheHello()` qui simplement affiche "_Hello World!_"
+4. Ajoutez au module `Afficheur` un package fr.miage.afficheur avec la class Main.class qui utilise la function `afficheHello()` du `module1` pour afficher l' _Hello World_
+5. Compilez le projet et vérifiez que tout se déroule correctement
 
 ## Junit 5
 ### Simple
