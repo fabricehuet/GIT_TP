@@ -13,7 +13,6 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 7. Invoquez la phase de compilation et vérifiez que tout se déroule correctement
 8. Où sont placés les fichiers compilés ?
 9. Utilisez Maven pour créer un jar. Où est-il placé ?
-10. Maven peut être utilisé pour exécuter votre classe principale avec le plugin exec. Modifiez votre pom pour le faire.
 
 ### Ça marche pas
 1. Ajoutez à votre code un package fr.miage.bogus avec une classe qui *ne compile pas*.
