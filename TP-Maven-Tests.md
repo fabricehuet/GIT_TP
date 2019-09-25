@@ -22,15 +22,15 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 ### Dependances
 1. Ajoutez à votre projet une dépendance vers ASCII Render
 2. Écrivez une classe Dessin ayant des méthodes pour dessiner des formes géométriques simples (rectangle, carré....) avec ASCII Render
-3. Ajoutez une méthode main et vérifiez le bon fonctionnement. 
+3. Ajoutez une méthode main et vérifiez le bon fonctionnement.
 
 ### Execution avec Maven
-1. Trouvez comment exécuter une classe avec maven en passant son nom et d'autres paramètres sur la ligne de commande. 
-2. Modifiez votre pom.xml pour que l'exécution se fasse sans spécifier les paramètres comme précédemment. 
+1. Trouvez comment exécuter une classe avec maven en passant son nom et d'autres paramètres sur la ligne de commande.
+2. Modifiez votre pom.xml pour que l'exécution se fasse sans spécifier les paramètres comme précédemment.
 
 ### Resources
 1. Ajoutez aux resources de votre projet un fichier config.cfg contenant quelques lignes de texte
-2. Modifiez la classe Dessin pour qu'elle lise et affiche le contenu du fichier, sans utiliser de chemin absolu. 
+2. Modifiez la classe Dessin pour qu'elle lise et affiche le contenu du fichier, sans utiliser de chemin absolu.
 
 ### Exécutable
 1. Créez un jar exécutable de votre projet avec Maven.
@@ -52,12 +52,12 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 ### Petite application
 Dans cet exercice nous allons écrire une petite application découpée en deux modules. Cette application permet de calculer le résultat d'une opération arithmétique simple
 sous la forme d'une chaine de caractères. Par exemple, si on a "25+5" alors elle retournera 30. Les opérations supportées sont les opérations arithmétiques de base et chaque chaine ne peut contenir qu'un opérateur.
-Un module sera chargé de la partie calcul et l'autre des entrées sorties (lecture de fichiers texte). L'ensemble sera fait sous forme d'un projet Maven multi-modules et toutes les méthodes devront avoir des tests unitaires *exhaustifs*. 
+Un module sera chargé de la partie calcul et l'autre des entrées sorties (lecture de fichiers texte). L'ensemble sera fait sous forme d'un projet Maven multi-modules et toutes les méthodes devront avoir des tests unitaires *exhaustifs*.
 #### Module calcul
 Une classe chargée du calcul contiendra au moins deux méthodes
-- une méthode _boolean isValid(String)_ qui vérifie qu'une chaine est une opération valide
-- une méthode _int calcul(String)_ qui retourne la valeur calculée
+- une méthode `boolean isValid(String)` qui vérifie qu'une chaine est une opération valide
+- une méthode `int calcul(String)` qui retourne la valeur calculée
 #### Module i/o
 Une classe sera chargée de lire et écrire dans des fichiers texte
-- _String[] readFromFile(String filename)_ lira un fichier contenant plusieurs opérations, une par ligne
-- _void writeResults(String filename, int[] results)_ écrira dans un fichier les résultats, un par ligne.
+- `String[] readFromFile(String filename)` lira un fichier contenant plusieurs opérations, une par ligne
+- `void writeResults(String filename, int[] results)` écrira dans un fichier les résultats, un par ligne.
