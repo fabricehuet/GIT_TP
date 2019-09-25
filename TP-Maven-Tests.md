@@ -44,8 +44,20 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 
 ## Junit 5
 ### Simple
-1. Ajoutez les dépendances pour JUnit 5 à votre fichier pom.xml
-2. Modifiez votre pom.xml pour pouvoir compiler et générer du Java 8.
-3. Créez un unique test qui réussit tout le temps (utilisez par exemple assertTrue(true))
-4. Testez avec Maven et commentez le résultat
-5. Rajoutez un test qui échoue tout le temps et testez à nouveau
+1. Creez un projet Maven et ajoutez les dépendances pour JUnit 5 à votre fichier pom.xml
+2. Créez un unique test qui réussit tout le temps (utilisez par exemple assertTrue(true))
+3. Testez avec Maven et commentez le résultat
+4. Rajoutez un test qui échoue tout le temps et testez à nouveau
+
+### Petite application
+Dans cet exercice nous allons écrire une petite application découpée en deux modules. Cette application permet de calculer le résultat d'une opération arithmétique simple
+sous la forme d'une chaine de caractères. Par exemple, si on a "25+5" alors elle retournera 30. Les opérations supportées sont les opérations arithmétiques de base et chaque chaine ne peut contenir qu'un opérateur.
+Un module sera chargé de la partie calcul et l'autre des entrées sorties (lecture de fichiers texte). L'ensemble sera fait sous forme d'un projet Maven multi-modules et toutes les méthodes devront avoir des tests unitaires *exhaustifs*. 
+#### Module calcul
+Une classe chargée du calcul contiendra au moins deux méthodes
+- une méthode _boolean isValid(String)_ qui vérifie qu'une chaine est une opération valide
+- une méthode _int calcul(String)_ qui retourne la valeur calculée
+#### Module i/o
+Une classe sera chargée de lire et écrire dans des fichiers texte
+- _String[] readFromFile(String filename)_ lira un fichier contenant plusieurs opérations, une par ligne
+- _void writeResults(String filename, int[] results)_ écrira dans un fichier les résultats, un par ligne.
