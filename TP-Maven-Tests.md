@@ -13,15 +13,34 @@ Tout le TP doit être fait dans un répertoire sous contrôle de GIT. Les commit
 7. Invoquez la phase de compilation et vérifiez que tout se déroule correctement
 8. Où sont placés les fichiers compilés ?
 9. Utilisez Maven pour créer un jar. Où est-il placé ?
-10. Maven peut être utilisé pour exécuter votre classe principale avec le plugin exec. Modifiez votre pom pour le faire.
 
 ### Ça marche pas
 1. Ajoutez à votre code un package fr.miage.bogus avec une classe qui *ne compile pas*.
 2. Lancez la phase compile et analysez le message d'erreur
 3. Dans le cas où corriger le code n'est pas immédiatement possible, on peut exclure du code de la compilation. Modifiez le pom.xml pour exclure le package bogus
 
+### Dependances
+1. Ajoutez à votre projet une dépendance vers ASCII Render
+2. Écrivez une classe Dessin ayant des méthodes pour dessiner des formes géométriques simples (rectangle, carré....) avec ASCII Render
+3. Ajoutez une méthode main et vérifiez le bon fonctionnement. 
+
+### Execution avec Maven
+1. Trouvez comment exécuter une classe avec maven en passant son nom et d'autres paramètres sur la ligne de commande. 
+2. Modifiez votre pom.xml pour que l'exécution se fasse sans spécifier les paramètres comme précédemment. 
+
+### Resources
+1. Ajoutez aux resources de votre projet un fichier config.cfg contenant quelques lignes de texte
+2. Modifiez la classe Dessin pour qu'elle lise et affiche le contenu du fichier, sans utiliser de chemin absolu. 
+
 ### Exécutable
 1. Créez un jar exécutable de votre projet avec Maven.
+
+### Modules
+1. Créez un nouveau projet avec son pom.xml principal
+2. Ajoutez deux modules `Utils` et `Afficheur` en créant les dossiers necessaires et leur fichiers pom.xml
+3. Créez un package fr.miage.utils dans `Utils`, avec une classe qui contient la function `afficheHello()` qui simplement affiche "_Hello World!_"
+4. Ajoutez au module `Afficheur` un package fr.miage.afficheur avec la class Main.class qui utilise la function `afficheHello()` du `module1` pour afficher l' _Hello World_
+5. Compilez le projet et vérifiez que tout se déroule correctement
 
 ## Junit 5
 ### Simple
