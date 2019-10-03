@@ -24,6 +24,7 @@ un chemin vers un fichier contenant la grille. Si aucun paramêtre, il chargera 
 Toutes les classes méthodes devront être testées avec JUnit.
 
 ## Fonctionnalités attendues
+### Branche _master_
 La grille de Sudoku est de taille 9x9 et chaque case peut contenir un chiffre entre 1 et 9. Elle est subdivisée et 9 zones de taille
 3x3. Le but est d'avoir dans chaque zone, sur chaque ligne et chaque colonne chaque chiffre une unique fois.
 * L'affichage de la grille se fait en mode texte en utilisant une bibliothèque comme Java ASCII Render. Après chaque coup la grille peut être complètement affichée de nouveau.
@@ -31,4 +32,6 @@ La grille de Sudoku est de taille 9x9 et chaque case peut contenir un chiffre en
 * Chaque fois qu'un nombre est proposé, il est vérifié et le logiciel affiche un message si il est incorrect.
 * Une grille peut être spécifiée sous forme de fichier texte. Une ligne de texte par ligne de la grille. Une case sans valeur sera représentée par '\_'
 * Une grille peut être sauvegardée sous forme de fichier texte en tapant _save nom_ plutôt qu'un nombre.
-Pour la branche, il devra être possible d'annuler les coups pour revenir en arrière avec la touche 'b' (back). Chaque appuie sur la touche annulera le dernier coup joué. 
+
+### Branche _dev_
+Dans cette branche se trouvera une version du jeu permettant de revenir en arrière. Il devra être possible d'annuler les coups avec la touche 'b' (back). Chaque appuie sur la touche annulera le dernier coup joué. Tous les coups joués depuis le début de la partie devront pouvoir être annulés. 
