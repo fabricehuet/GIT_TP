@@ -31,7 +31,7 @@ La grille de Sudoku est de taille 9x9 et chaque case peut contenir un chiffre en
 * Le joueur indique par 3 chiffres sans espaces le coup à jouer. Par exemple _123_ indique la ligne 1, la colonne 2, et mettre la valeur 3.
 * Chaque fois qu'un nombre est proposé, il est vérifié et le logiciel affiche un message si il est incorrect.
 * Une grille peut être spécifiée sous forme de fichier texte. Une ligne de texte par ligne de la grille. Une case sans valeur sera représentée par '\_'
-* Une grille peut être sauvegardée sous forme de fichier texte en tapant _save nom_ plutôt qu'un nombre.
+* Une grille peut être sauvegardée sous forme de fichier texte en tapant _save nom_ plutôt qu'un nombre et chargée en tapant _load nom_.
 
 ### Branche _dev_
-Dans cette branche se trouvera une version du jeu permettant de revenir en arrière. Il devra être possible d'annuler les coups avec la touche 'b' (back). Chaque appuie sur la touche annulera le dernier coup joué. Tous les coups joués depuis le début de la partie devront pouvoir être annulés. 
+Dans cette branche se trouvera une version du jeu permettant de revenir en arrière. Il devra être possible d'annuler les coups avec la touche 'b' (back). Chaque appuie sur la touche annulera le dernier coup joué. Tous les coups joués depuis le début de la partie devront pouvoir être annulés.
