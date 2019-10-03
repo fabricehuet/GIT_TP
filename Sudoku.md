@@ -34,4 +34,4 @@ La grille de Sudoku est de taille 9x9 et chaque case peut contenir un chiffre en
 * Une grille peut être sauvegardée sous forme de fichier texte en tapant _save nom_ plutôt qu'un nombre et chargée en tapant _load nom_.
 
 ### Branche _dev_
-Dans cette branche se trouvera une version du jeu permettant de revenir en arrière. Il devra être possible d'annuler les coups avec la touche 'b' (back). Chaque appuie sur la touche annulera le dernier coup joué. Tous les coups joués depuis le début de la partie devront pouvoir être annulés.
+Dans cette branche se trouvera une version du jeu permettant de revenir en arrière. Il devra être possible d'annuler les coups avec la commande 'b' (back). Chaque commande  annulera le dernier coup joué. Tous les coups joués depuis le début de la partie devront pouvoir être annulés.
