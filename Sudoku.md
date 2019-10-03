@@ -28,7 +28,7 @@ Toutes les classes méthodes devront être testées avec JUnit.
 La grille de Sudoku est de taille 9x9 et chaque case peut contenir un chiffre entre 1 et 9. Elle est subdivisée et 9 zones de taille
 3x3. Le but est d'avoir dans chaque zone, sur chaque ligne et chaque colonne chaque chiffre une unique fois.
 * L'affichage de la grille se fait en mode texte en utilisant une bibliothèque comme Java ASCII Render. Après chaque coup la grille peut être complètement affichée de nouveau.
-* Le joueur indique par 3 chiffres sans espaces le coup à jouer. Par exemple _123_ indique la ligne 1, la colonne 2, et mettre la valeur 3.
+* Le joueur indique par 3 chiffres sans espaces le coup à jouer. Par exemple _123_ indique la ligne 1, la colonne 2, et mettre la valeur 3. Les lignes sont numérotées de haut en bas. 
 * Chaque fois qu'un nombre est proposé, il est vérifié et le logiciel affiche un message si il est incorrect.
 * Une grille peut être spécifiée sous forme de fichier texte. Une ligne de texte par ligne de la grille. Une case sans valeur sera représentée par '\_'
 * Une grille peut être sauvegardée sous forme de fichier texte en tapant _save nom_ plutôt qu'un nombre et chargée en tapant _load nom_.
